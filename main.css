@@ -1,0 +1,60 @@
+/* Game board and text not responsive yet*/
+
+body {
+    background-color:white;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    margin-top: 40px;
+    }
+    
+  table {
+      margin-right: center;
+      margin-left: center;
+      margin: 0 auto;
+      border-spacing: 0;
+      border-collapse: collapse;
+    }
+    
+  
+  h1 {
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: 2vw;
+      color: black;
+    }
+    
+  td {
+      width: 4vw;
+      height: 4vw;
+      text-align: center;
+      font-size: 150%;
+      border: black solid 3px;
+      color: black;
+    }
+  
+  h2 {
+    text-align: center;
+    font-size: 2vw;
+    color: #4c2c92;
+  }  
+  
+  button 
+    #restart {
+      align-items: center;
+      text-align: center;
+      font-size: 2vw;
+      border: black solid 3px;
+      border-radius: 3px;
+      color: black;
+      cursor: pointer;
+      /* visibility: hidden; */
+    }
+  
+    #restart:hover {
+      font-style: italic;
+    }
+  
+    #restart:active {
+      transform: scale(0.95);
+    }
